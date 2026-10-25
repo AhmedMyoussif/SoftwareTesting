@@ -1,0 +1,8 @@
+[project]
+name = "tickets-lab02"
+version = "1.0.0"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
